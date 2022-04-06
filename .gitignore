@@ -111,7 +111,15 @@ out
 **/*.backup.*
 **/*.back.*
 
-node_modules
+node_modules/
+.idea/
+.vscode/
+build/
+
+.DS_Store
+dist
+dist-ssr
+*.local
 
 
  # End of https://www.toptal.com/developers/gitignore/api/node,react
