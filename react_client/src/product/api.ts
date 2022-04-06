@@ -301,14 +301,14 @@ export default {
               price: 10000,
             },
             {
-              id: 39,
+              id: 390,
               brand: "Marca Acme",
               description: "Plan directv 50 mb",
               image: "www.lider.cl/catalogo/images/catalogo_no_photo.jpg",
               price: 5000,
             },
             {
-              id: 40,
+              id: 401,
               brand: "Marca Acme",
               description: "Muñeca lipo 30",
               image: "www.lider.cl/catalogo/images/catalogo_no_photo.jpg",

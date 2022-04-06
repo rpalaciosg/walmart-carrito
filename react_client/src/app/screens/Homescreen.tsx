@@ -1,6 +1,7 @@
 import { CircularProgress, Flex, Heading, Stack } from "@chakra-ui/react";
 import React from "react";
 import api from "~/product/api";
+import ProductList from "~/product/components/ProductList";
 import { Product } from "~/product/types";
 
 const HomeScreen: React.FC = () => {
@@ -29,9 +30,7 @@ const HomeScreen: React.FC = () => {
       <Heading color="gray.400" fontSize="4xl">
         Products
       </Heading>
-      <li>product 1</li>
-      <li>product 2</li>
-      <li>product 3</li>
+      <ProductList products={products} />
     </Stack>
   );
 };
