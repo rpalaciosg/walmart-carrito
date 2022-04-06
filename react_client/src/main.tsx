@@ -9,9 +9,11 @@ import "./theme.css";
 ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
+      {/* <ProductProvider> */}
       <Layout>
         <HomeScreen />
       </Layout>
+      {/* </ProductProvider> */}
     </ChakraProvider>
   </React.StrictMode>,
   document.getElementById("root")
