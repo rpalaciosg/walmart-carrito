@@ -6,7 +6,6 @@ const logger = require("morgan");
 const routes = require("./routes/index");
 
 const app = express();
-// const router = express.Router();
 
 app.use(logger("dev"));
 app.use(express.json());
